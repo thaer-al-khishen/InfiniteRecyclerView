@@ -47,6 +47,4 @@ class LoopingAdapter (private val dataSet: ArrayList<String>, var width: Int) :
     // Return the size of your dataset (invoked by the layout manager)
     override fun getItemCount() = Integer.MAX_VALUE
 
-
-
 }
